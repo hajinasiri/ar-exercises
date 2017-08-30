@@ -4,9 +4,7 @@ puts "----------"
 
 
 
-class Store < ActiveRecord::Base
 
-end
 
 burnaby = Store.new do |burnaby|
   burnaby.name = "Burnaby"
